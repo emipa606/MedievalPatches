@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- ========== Railgun Disabling ========== -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Gun_RailgunMKI"]</xpath>
+        <value>
+          <tradeability>None</tradeability>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Gun_RailgunMKI"]/destroyOnDrop</xpath>
+        <value>
+          <destroyOnDrop>True</destroyOnDrop>
+        </value>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="Gun_RailgunMKI"]/itemGeneratorTags</xpath>
+      </li>
+    </operations>
+  </Operation>
+  <!-- ========== BrainPal Disabling ========== -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="BionicTacticalImplant"]</xpath>
+        <value>
+          <tradeability>None</tradeability>
+          <destroyOnDrop>True</destroyOnDrop>
+        </value>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="BionicTacticalImplant"]/itemGeneratorTags</xpath>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="ElectronicTacticalImplant"]</xpath>
+        <value>
+          <tradeability>None</tradeability>
+          <destroyOnDrop>True</destroyOnDrop>
+        </value>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="ElectronicTacticalImplant"]/itemGeneratorTags</xpath>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

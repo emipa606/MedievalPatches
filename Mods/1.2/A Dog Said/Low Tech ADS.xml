@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- ========== Research Changes ========== -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ResearchProjectDef[defName="SimpleAnimalProsthetics"]/techLevel</xpath>
+        <value>
+          <techLevel>Medieval</techLevel>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ResearchProjectDef[defName="SimpleAnimalProsthetics"]/prerequisites</xpath>
+        <value>
+          <prerequisites>
+            <li>Smithing</li>
+          </prerequisites>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!-- ========== Animal Prosthetics Table Changes ========== -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName="TableAnimalProsthetics"]/researchPrerequisites</xpath>
+        <value>
+          <researchPrerequisites>
+            <li>SimpleAnimalProsthetics</li>
+          </researchPrerequisites>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName="TableAnimalProsthetics"]/comps/li[@Class="CompProperties_Power"]</xpath>
+        <value>
+          <li Class="CompProperties_Refuelable">
+            <fuelConsumptionRate>80.0</fuelConsumptionRate>
+            <fuelCapacity>50.0</fuelCapacity>
+            <fuelFilter>
+              <thingDefs>
+                <li>WoodLog</li>
+              </thingDefs>
+            </fuelFilter>
+            <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+          </li>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

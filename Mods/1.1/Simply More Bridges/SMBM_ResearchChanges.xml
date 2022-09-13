@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ResearchProjectDef[defName = "HeavyBridges"]/techLevel</xpath>
+        <value>
+          <techLevel>Medieval</techLevel>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ResearchProjectDef[defName = "DeepWaterBridges"]/techLevel</xpath>
+        <value>
+          <techLevel>Medieval</techLevel>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- ========== Research Tab Relocation ========== -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ResearchProjectDef[defName="AdvancedManagingSoftware"]</xpath>
+        <value>
+          <tab>ManagerTab</tab>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ResearchProjectDef[defName="PowerManagement"]</xpath>
+        <value>
+          <tab>ManagerTab</tab>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!-- ========== Research Changes ========== -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ResearchProjectDef[defName="AdvancedManagingSoftware"]/prerequisites/li</xpath>
+        <value>
+          <li>AdvancedManagingSoftware</li>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ResearchProjectDef[defName="PowerManagement"]/prerequisites/li</xpath>
+        <value>
+          <li>PowerManagement</li>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ResearchProjectDef[defName="ManagingSoftware"]/label</xpath>
+        <value>
+          <label>basic colony management</label>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ResearchProjectDef[defName="ManagingSoftware"]/description</xpath>
+        <value>
+          <description>Allows the building of the basic manager desk, an essential part of any organized colony.</description>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ResearchProjectDef[defName="ManagingSoftware"]/techLevel</xpath>
+        <value>
+          <techLevel>Medieval</techLevel>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ResearchProjectDef[defName="ManagingSoftware"]/requiredResearchBuilding</xpath>
+        <value>
+          <requiredResearchBuilding>SimpleResearchBench</requiredResearchBuilding>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!-- ========== Manager Desk Changes ========== -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName="FM_BasicManagerStation"]</xpath>
+        <value>
+          <researchPrerequisites>
+            <li>ManagingSoftware</li>
+          </researchPrerequisites>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName="FM_ManagerStation"]/researchPrerequisites/li</xpath>
+        <value>
+          <li>AdvancedManagingSoftware</li>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

@@ -1,0 +1,373 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- ========== MT Accessory Disabling ========== -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName="MedTimes_Acc_HappyMerchant_Art"]</xpath>
+        <value>
+          <tradeability>None</tradeability>
+          <destroyOnDrop>True</destroyOnDrop>
+          <menuHidden>True</menuHidden>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName="MedTimes_Acc_HappyMerchant_Leg"]</xpath>
+        <value>
+          <tradeability>None</tradeability>
+          <destroyOnDrop>True</destroyOnDrop>
+          <menuHidden>True</menuHidden>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName="MedTimes_Acc_WargodCrest_Art"]</xpath>
+        <value>
+          <tradeability>None</tradeability>
+          <destroyOnDrop>True</destroyOnDrop>
+          <menuHidden>True</menuHidden>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName="MedTimes_Acc_WargodCrest_Leg"]</xpath>
+        <value>
+          <tradeability>None</tradeability>
+          <destroyOnDrop>True</destroyOnDrop>
+          <menuHidden>True</menuHidden>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName="MedTimes_Acc_Toolbelt_Nan"]</xpath>
+        <value>
+          <tradeability>None</tradeability>
+          <destroyOnDrop>True</destroyOnDrop>
+          <menuHidden>True</menuHidden>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName="MedTimes_WarbourneShield"]</xpath>
+        <value>
+          <tradeability>None</tradeability>
+          <destroyOnDrop>True</destroyOnDrop>
+          <menuHidden>True</menuHidden>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName="MedTimes_Acc_ToolbeltSmokepop"]</xpath>
+        <value>
+          <tradeability>None</tradeability>
+          <destroyOnDrop>True</destroyOnDrop>
+          <menuHidden>True</menuHidden>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!-- ========== MT Foot Armor Disabling ========== -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName="MedTimes_Socks_Techno_Art"]</xpath>
+        <value>
+          <tradeability>None</tradeability>
+          <destroyOnDrop>True</destroyOnDrop>
+          <menuHidden>True</menuHidden>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName="MedTimes_Boots_Combat_Art"]</xpath>
+        <value>
+          <tradeability>None</tradeability>
+          <destroyOnDrop>True</destroyOnDrop>
+          <menuHidden>True</menuHidden>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName="MedTimes_Boots_Techno_Art"]</xpath>
+        <value>
+          <tradeability>None</tradeability>
+          <destroyOnDrop>True</destroyOnDrop>
+          <menuHidden>True</menuHidden>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName="MedTimes_Socks_Techno_Leg"]</xpath>
+        <value>
+          <tradeability>None</tradeability>
+          <destroyOnDrop>True</destroyOnDrop>
+          <menuHidden>True</menuHidden>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName="MedTimes_Boots_Combat_Leg"]</xpath>
+        <value>
+          <tradeability>None</tradeability>
+          <destroyOnDrop>True</destroyOnDrop>
+          <menuHidden>True</menuHidden>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName="MedTimes_Boots_Techno_Leg"]</xpath>
+        <value>
+          <tradeability>None</tradeability>
+          <destroyOnDrop>True</destroyOnDrop>
+          <menuHidden>True</menuHidden>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!-- ========== MT Body Armor Disabling ========== -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName="MedTimes_BodyArmour_Combat_Art"]</xpath>
+        <value>
+          <tradeability>None</tradeability>
+          <destroyOnDrop>True</destroyOnDrop>
+          <menuHidden>True</menuHidden>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName="MedTimes_BodyArmour_Combat_Leg"]</xpath>
+        <value>
+          <tradeability>None</tradeability>
+          <destroyOnDrop>True</destroyOnDrop>
+          <menuHidden>True</menuHidden>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!-- ========== MT Hand Armor Disabling ========== -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName="MedTimes_Gloves_Combat_Art"]</xpath>
+        <value>
+          <tradeability>None</tradeability>
+          <destroyOnDrop>True</destroyOnDrop>
+          <menuHidden>True</menuHidden>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName="MedTimes_Gauntlets_Techno_Art"]</xpath>
+        <value>
+          <tradeability>None</tradeability>
+          <destroyOnDrop>True</destroyOnDrop>
+          <menuHidden>True</menuHidden>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName="MedTimes_Gloves_Combat_Leg"]</xpath>
+        <value>
+          <tradeability>None</tradeability>
+          <destroyOnDrop>True</destroyOnDrop>
+          <menuHidden>True</menuHidden>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName="MedTimes_Gauntlets_Techno_Leg"]</xpath>
+        <value>
+          <tradeability>None</tradeability>
+          <destroyOnDrop>True</destroyOnDrop>
+          <menuHidden>True</menuHidden>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!-- ========== MT Helmet Disabling ========== -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName="MedTimes_Helm_Combat_Art"]</xpath>
+        <value>
+          <tradeability>None</tradeability>
+          <destroyOnDrop>True</destroyOnDrop>
+          <menuHidden>True</menuHidden>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName="MedTimes_Helm_Combat_Leg"]</xpath>
+        <value>
+          <tradeability>None</tradeability>
+          <destroyOnDrop>True</destroyOnDrop>
+          <menuHidden>True</menuHidden>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!-- ========== MT Gun Disabling ========== -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName="MedTimes_Ranged_ChargeMG_Art"]</xpath>
+        <value>
+          <tradeability>None</tradeability>
+          <destroyOnDrop>True</destroyOnDrop>
+          <menuHidden>True</menuHidden>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName="MedTimes_Ranged_ChargeMG_Leg"]</xpath>
+        <value>
+          <tradeability>None</tradeability>
+          <destroyOnDrop>True</destroyOnDrop>
+          <menuHidden>True</menuHidden>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationRemove">
+        <xpath>*/ThingDef[defName="MedTimes_Ranged_Musket"]/costList</xpath>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName="MedTimes_Ranged_Musket"]</xpath>
+        <value>
+          <tradeability>None</tradeability>
+          <destroyOnDrop>True</destroyOnDrop>
+          <menuHidden>True</menuHidden>
+        </value>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>*/ThingDef[defName="MedTimes_Ranged_Musket"]/recipeMaker</xpath>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationRemove">
+        <xpath>*/ThingDef[defName="MedTimes_Ranged_Musket_Nan"]/costList</xpath>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName="MedTimes_Ranged_Musket_Nan"]</xpath>
+        <value>
+          <tradeability>None</tradeability>
+          <destroyOnDrop>True</destroyOnDrop>
+          <menuHidden>True</menuHidden>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationRemove">
+        <xpath>*/ThingDef[defName="MedTimes_Ranged_Musket"]/weaponTags</xpath>
+      </li>
+    </operations>
+  </Operation>
+  <!-- ========== MT Melee Weapon Disabling ========== -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName="MedTimes_Melee_SwordTechno_Art"]</xpath>
+        <value>
+          <tradeability>None</tradeability>
+          <destroyOnDrop>True</destroyOnDrop>
+          <menuHidden>True</menuHidden>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName="MedTimes_Melee_SwordTechno_Leg"]</xpath>
+        <value>
+          <tradeability>None</tradeability>
+          <destroyOnDrop>True</destroyOnDrop>
+          <menuHidden>True</menuHidden>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!-- ========== MT PC Disabling ========== -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName="MedTimes_PersonalComputer"]</xpath>
+        <value>
+          <tradeability>None</tradeability>
+          <destroyOnDrop>True</destroyOnDrop>
+          <menuHidden>True</menuHidden>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!-- ========== MT Item Changes ========== -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName="MedTimes_GraphicNovel"]/label</xpath>
+        <value>
+          <label>Medieval Codex</label>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName="MedTimes_GraphicNovel"]/description</xpath>
+        <value>
+          <description>The codex is a type of early hand-written book that replaced scrolls as the preferred medium of writing in the Middle Ages due to it's inclusion of a protective cover for the delicate manuscript.</description>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!-- ========== MT Nanite Vial Disabling ========== -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName="MedTimes_NaniteVial"]</xpath>
+        <value>
+          <tradeability>None</tradeability>
+          <destroyOnDrop>True</destroyOnDrop>
+          <menuHidden>True</menuHidden>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationRemove">
+        <xpath>*/TraderKindDef/stockGenerators/li[thingDef="MedTimes_NaniteVial"]</xpath>
+      </li>
+    </operations>
+  </Operation>
+  <!-- ========== MT Eternity Forge Disabling ========== -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName="MedTimes_EternityForge"]</xpath>
+        <value>
+          <tradeability>None</tradeability>
+          <destroyOnDrop>True</destroyOnDrop>
+          <menuHidden>True</menuHidden>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationRemove">
+        <xpath>*/TraderKindDef/stockGenerators/li[thingDef="MedTimes_EternityForge"]</xpath>
+      </li>
+    </operations>
+  </Operation>
+  <!-- ========== MT Nanite Gear Disabling ========== -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationRemove">
+        <xpath>*/TraderKindDef/stockGenerators/li[tradeTag="MedTimes_NanGear"]</xpath>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

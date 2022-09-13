@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- ========== Industrial Medical Disabling ========== -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName="sd_medicaddons_industrial_surg_instruments"]</xpath>
+        <value>
+          <tradeability>None</tradeability>
+          <destroyOnDrop>True</destroyOnDrop>
+          <menuHidden>True</menuHidden>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName="sd_medicaddons_industrial_surg_lamp"]</xpath>
+        <value>
+          <tradeability>None</tradeability>
+          <destroyOnDrop>True</destroyOnDrop>
+          <menuHidden>True</menuHidden>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!-- ========== Spacer Medical Disabling ========== -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName="sd_medicaddons_spacer_surg_vitalsmonitor"]</xpath>
+        <value>
+          <tradeability>None</tradeability>
+          <destroyOnDrop>True</destroyOnDrop>
+          <menuHidden>True</menuHidden>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName="sd_medicaddons_spacer_surg_instruments"]</xpath>
+        <value>
+          <tradeability>None</tradeability>
+          <destroyOnDrop>True</destroyOnDrop>
+          <menuHidden>True</menuHidden>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName="sd_medicaddons_spacer_surg_lamp"]</xpath>
+        <value>
+          <tradeability>None</tradeability>
+          <destroyOnDrop>True</destroyOnDrop>
+          <menuHidden>True</menuHidden>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

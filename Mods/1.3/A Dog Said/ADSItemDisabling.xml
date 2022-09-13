@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- ========== ADS Medical Disabling ========== -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="BionicLegAnimal"]</xpath>
+        <value>
+          <tradeability>None</tradeability>
+          <destroyOnDrop>True</destroyOnDrop>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="BionicArmAnimal"]</xpath>
+        <value>
+          <tradeability>None</tradeability>
+          <destroyOnDrop>True</destroyOnDrop>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="BionicEyeAnimal"]</xpath>
+        <value>
+          <tradeability>None</tradeability>
+          <destroyOnDrop>True</destroyOnDrop>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="EarAnimalBionic"]</xpath>
+        <value>
+          <tradeability>None</tradeability>
+          <destroyOnDrop>True</destroyOnDrop>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="JawAnimalBionic"]</xpath>
+        <value>
+          <tradeability>None</tradeability>
+          <destroyOnDrop>True</destroyOnDrop>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="SpineAnimalBionic"]</xpath>
+        <value>
+          <tradeability>None</tradeability>
+          <destroyOnDrop>True</destroyOnDrop>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="BionicAnimalHeart"]</xpath>
+        <value>
+          <tradeability>None</tradeability>
+          <destroyOnDrop>True</destroyOnDrop>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="BionicAnimalLung"]</xpath>
+        <value>
+          <tradeability>None</tradeability>
+          <destroyOnDrop>True</destroyOnDrop>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="BionicAnimalLiver"]</xpath>
+        <value>
+          <tradeability>None</tradeability>
+          <destroyOnDrop>True</destroyOnDrop>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="BionicAnimalKidney"]</xpath>
+        <value>
+          <tradeability>None</tradeability>
+          <destroyOnDrop>True</destroyOnDrop>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="BionicAnimalStomach"]</xpath>
+        <value>
+          <tradeability>None</tradeability>
+          <destroyOnDrop>True</destroyOnDrop>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="AnimalBrainStimulator"]</xpath>
+        <value>
+          <tradeability>None</tradeability>
+          <destroyOnDrop>True</destroyOnDrop>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

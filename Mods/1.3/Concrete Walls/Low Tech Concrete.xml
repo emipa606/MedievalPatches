@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- ========== Recipe Changes ========== -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeConcreteSlabBricks"]/recipeUsers/li</xpath>
+        <value>
+          <li>MedTimes_FueledSmelter</li>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeConcreteSlabChunks"]/recipeUsers/li</xpath>
+        <value>
+          <li>MedTimes_FueledSmelter</li>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!-- ========== Research Changes ========== -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ResearchProjectDef[defName="ConcreteWorks"]/baseCost</xpath>
+        <value>
+          <baseCost>1500</baseCost>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ResearchProjectDef[defName="ConcreteWorks"]/techLevel</xpath>
+        <value>
+          <techLevel>Medieval</techLevel>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ResearchProjectDef[defName="ConcreteWorks"]/prerequisites/li</xpath>
+        <value>
+          <li>MedTimes_AdvancedMedievalSmithing</li>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ResearchProjectDef[defName="ConcreteWorks"]/description</xpath>
+        <value>
+          <description>Learn to create reinforced concrete slabs at a fueled smelter. Known for it's strength and durability, concrete is an ancient construction material that has been used by humans for thousands of years.</description>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

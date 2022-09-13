@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- ========== EPOE Body Part Disabling ========== -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[@Name="Advanced"]</xpath>
+        <value>
+          <tradeability>None</tradeability>
+          <destroyOnDrop>True</destroyOnDrop>
+          <menuHidden>True</menuHidden>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[@Name="Bionic"]</xpath>
+        <value>
+          <tradeability>None</tradeability>
+          <destroyOnDrop>True</destroyOnDrop>
+          <menuHidden>True</menuHidden>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[@Name="Glitterworld"]</xpath>
+        <value>
+          <tradeability>None</tradeability>
+          <destroyOnDrop>True</destroyOnDrop>
+          <menuHidden>True</menuHidden>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[@Name="Surrogate"]</xpath>
+        <value>
+          <tradeability>None</tradeability>
+          <destroyOnDrop>True</destroyOnDrop>
+          <menuHidden>True</menuHidden>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[@Name="Synthetic"]</xpath>
+        <value>
+          <tradeability>None</tradeability>
+          <destroyOnDrop>True</destroyOnDrop>
+          <menuHidden>True</menuHidden>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName="EnergizedComponents"]</xpath>
+        <value>
+          <tradeability>None</tradeability>
+          <destroyOnDrop>True</destroyOnDrop>
+          <menuHidden>True</menuHidden>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

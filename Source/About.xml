@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Medieval Patches</name>
+  <author>Bennington</author>
+  <supportedVersions>
+    <li>1.1</li>
+    <li>1.2</li>
+  </supportedVersions>
+  <description>
+	
+
+__________________________________________________________________________
+
+This mod also includes patches for a few mods that make them more “low tech” friendly. These include:
+
+1. EPOE (Moved simple prosthetic research to medieval era, replaced electricity requirement from the simple prosthetic workbench with a wood fuel requirement.)
+2. Concrete Walls *REQUIRES THE MEDIEVAL TIMES MOD AS WELL* (Moved concrete research to medieval era, made concrete slabs craftable at the blacksmith’s smelter from the Medieval Times mod instead of the vanilla electric smelter.)
+3. A Dog Said... (Moved simple animal prosthetics research to medieval era, replaced electricity requirement from the animal prosthetic workbench with a wood fuel requirement.)
+4. Colony Manager (Reflavored managing software research to be more low tech, added a simple research bench requirement, and moved it to the medieval era.)
+5. Misc. Core (Disabled both the Railgun and the BrainPal.)
+6. Medic Addons (Disabled industrial and spacer medical station add-ons)
+7. Drug Lab (Research: Drug Production, has now been moved down to medieval tech (I suggest installing Medieval Medicines to Take Advantage of This))
+
+Other recommended mods for low tech game types:
+
+1. Medieval Times (My personal favorite mod, and the reason I made Medieval World in the first place. The mod is spectacular, and it's creator, Vindar, is a absolute class act. This one is a literal game changer, and I can't recommend it enough.)
+2. Fishing Industry (Adds fishing. Excellent mod in almost all games, but nearly essential for those tribal tundra games where food is extremely scarce.)
+3. Simple Sidearms (Allows pawns to carry bow + melee weapon together.)
+4. Defensive Positions (Adds the ability to draft pawns to a saved position. This one is a lifesaver for all the micromanagement it takes care of.)
+5. No Power Comms Console (Replaces the comms console with a message raven, Game of Thrones style.)
+6. Dubs Skylights (Very useful for making greenhouses.)
+7. Firepit + Torch Sconce (Adds a fire pit and torch sconce that can be refueled instead of simply disappearing like the regular fire and torch)
+8. Bridges (Not only useful for the bridges, but also allows you to place water tiles for that castle moat you’ve always dreamed of.)
+9. Tilled Soil (Adds buildable soil for growing crops almost anywhere. Pairs very nicely with Dubs Skylights.)
+10. Quarry (Adds an excellent end-game electricity free resource mining solution)
+11. Misc. Bees'n'Honey (Adds beehives, honey, and brewable mead. Skyrim approved.)
+12. Medieval Medicines (Adds Medieval Tech Medicines)
+
+Suggested Load Order:
+
+1. Core
+2. Medieval Times
+3. (any other mod that you intend to patch from the list)
+5. Medieval Patches
+
+If you have any feedback or ideas, please feel free to leave me a comment on the Steam Workshop
+	</description>
+  <packageId>Bennington.MedievalPatches</packageId>
+</ModMetaData>
