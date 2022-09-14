@@ -1,4 +1,7 @@
 # Changelog for MedievalPatches
 
+1.3.1 - Will now work with [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2025987215]Early Times[/url] again
+
+
 1.3.0 - First publish
 
