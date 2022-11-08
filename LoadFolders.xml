@@ -42,4 +42,18 @@
     <li IfModActive="Mlie.SimplyMoreBridges">Mods/1.3/Simply More Bridges</li>
     <li IfModActive="dninemfive.simpleconcrete,vindar.medievaltimes">Mods/1.3/WD Simple Concrete</li>
   </v1.3>
+  <v1.4>
+    <li>1.4</li>
+    <li IfModActive="spoonshortage.ADogSaidAnimalProsthetics">Mods/1.4/A Dog Said</li>
+    <li IfModActive="Fluffy.ColonyManager">Mods/1.4/Colony Manager</li>
+    <li IfModActive="Porohkun.ConcreteWalls,vindar.medievaltimes">Mods/1.4/Concrete Walls</li>
+    <li IfModActive="Ykara.EPOE">Mods/1.4/EPOE</li>
+    <li IfModActive="vat.epoeforked">Mods/1.4/EPOE</li>
+    <li IfModActive="zymex.medicaddons">Mods/1.4/MedicAddons</li>
+    <li IfModActive="vindar.medievaltimes">Mods/1.4/Medieval Times</li>
+    <li IfModActive="RD.EarlyTimes">Mods/1.4/Medieval Times</li>
+    <li IfModActive="Haplo.Miscellaneous.Core">Mods/1.4/Misc. Core</li>
+    <li IfModActive="Mlie.SimplyMoreBridges">Mods/1.4/Simply More Bridges</li>
+    <li IfModActive="dninemfive.simpleconcrete,vindar.medievaltimes">Mods/1.4/WD Simple Concrete</li>
+  </v1.4>
 </loadFolders>

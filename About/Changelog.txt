@@ -1,5 +1,8 @@
 # Changelog for MedievalPatches
 
+1.4.1 - Mod updated for 1.4 and passed autotests
+
+
 1.3.1 - Will now work with [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2025987215]Early Times[/url] again
 
 

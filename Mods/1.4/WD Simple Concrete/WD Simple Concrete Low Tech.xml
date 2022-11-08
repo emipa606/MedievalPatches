@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- ========== Recipe Changes ========== -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="WDMakeConcreteBlocks"]/recipeUsers/li</xpath>
+        <value>
+          <li>MedTimes_FueledSmelter</li>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!-- ========== Research Changes ========== -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ResearchProjectDef[defName="WDReinforcedConcrete"]/baseCost</xpath>
+        <value>
+          <baseCost>1500</baseCost>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ResearchProjectDef[defName="WDReinforcedConcrete"]/techLevel</xpath>
+        <value>
+          <techLevel>Medieval</techLevel>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ResearchProjectDef[defName="WDReinforcedConcrete"]/prerequisites/li</xpath>
+        <value>
+          <li>MedTimes_AdvancedMedievalSmithing</li>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ResearchProjectDef[defName="WDReinforcedConcrete"]/description</xpath>
+        <value>
+          <description>Learn to create reinforced concrete bricks at a fueled smelter.</description>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ResearchProjectDef[defName="WDReinforcedConcrete"]/requiredResearchBuilding</xpath>
+        <value>
+          <requiredResearchBuilding>SimpleResearchBench</requiredResearchBuilding>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>
