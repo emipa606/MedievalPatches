@@ -1,5 +1,8 @@
 # Changelog for MedievalPatches
 
+1.4.2 - Fixed the mod-patches, missed the Patches folders
+
+
 1.4.1 - Mod updated for 1.4 and passed autotests
 
 
