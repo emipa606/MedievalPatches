@@ -1,5 +1,8 @@
 # Changelog for MedievalPatches
 
+1.5.0 - Updated for 1.5
+
+
 1.4.2 - Fixed the mod-patches, missed the Patches folders
 
 
