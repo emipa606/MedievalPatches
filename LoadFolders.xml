@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <loadFolders>
   <v1.1>
     <li>1.1</li>
@@ -70,4 +70,18 @@
     <li IfModActive="Mlie.SimplyMoreBridges">Mods/1.5/Simply More Bridges</li>
     <li IfModActive="dninemfive.simpleconcrete,vindar.medievaltimes">Mods/1.5/WD Simple Concrete</li>
   </v1.5>
+  <v1.6>
+    <li>1.6</li>
+    <li IfModActive="spoonshortage.ADogSaidAnimalProsthetics">Mods/1.6/A Dog Said</li>
+    <li IfModActive="Fluffy.ColonyManager">Mods/1.6/Colony Manager</li>
+    <li IfModActive="Porohkun.ConcreteWalls,vindar.medievaltimes">Mods/1.6/Concrete Walls</li>
+    <li IfModActive="Ykara.EPOE">Mods/1.6/EPOE</li>
+    <li IfModActive="vat.epoeforked">Mods/1.6/EPOE</li>
+    <li IfModActive="zymex.medicaddons">Mods/1.6/MedicAddons</li>
+    <li IfModActive="vindar.medievaltimes">Mods/1.6/Medieval Times</li>
+    <li IfModActive="RD.EarlyTimes">Mods/1.6/Medieval Times</li>
+    <li IfModActive="Haplo.Miscellaneous.Core">Mods/1.6/Misc. Core</li>
+    <li IfModActive="Mlie.SimplyMoreBridges">Mods/1.6/Simply More Bridges</li>
+    <li IfModActive="dninemfive.simpleconcrete,vindar.medievaltimes">Mods/1.6/WD Simple Concrete</li>
+  </v1.6>
 </loadFolders>
